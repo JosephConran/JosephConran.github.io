@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+  height: 100vh;
+}
+
+header {
+  height: 50px;
+  position: fixed;
+  display: flexbox;
+  columns: 4;
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+header a {
+  text-decoration: none;
+}
+.nav {
+  list-style-type: none;
+}
+
+main {
+  display: flexbox;
+  align-content: center;
+  justify-items: center;
+  padding-top: 50px;
+}
+.title h1 {
+  color: aliceblue;
+  font-size: 100px;
+}
+
+.title p {
+  overflow: hidden;
+  border-right: 0.15em solid rgb(0, 255, 72);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  /* margin-left: 200px; */
+  font-size: 50px;
+  color: aliceblue;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb (0, 255, 72);
+  }
+}
+
+.title {
+  background-image: url("/images/JosephConran.jpg");
+  text-align: center;
+  align-content: center;
+  background-color: aliceblue;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.projects {
+  background-color: grey;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* display: flexbox;
+  align-content: center;
+  justify-items: center;
+  columns: 4; */
+  gap: 40px;
+}
+
+.prj {
+  
+}
+
+.mission {
+  overflow: auto;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission article {
+  font-size: 18px;
+}
+
+.mission p {
+  font-size: larger;
+}
+
+.mission strong {
+  margin-top: 20px;
+  background-image: linear-gradient(to right, yellow, rgba(255, 255, 0, 0.286));
+  color: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ffff00;
+}
