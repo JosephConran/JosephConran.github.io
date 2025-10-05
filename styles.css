@@ -73,6 +73,7 @@ h3 {
 }
 .navbar ul li:hover {
   transform: scale(1.3);
+}
 body {
   background-color: lightgray;
   height: 100vh;
@@ -208,5 +209,5 @@ footer {
   height: 50px;
   width: 100%;
   background-color: var(--black);
-  color: white;
+  color: var(--black);
 }
