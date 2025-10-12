@@ -76,51 +76,13 @@ h3 {
 .navbar ul li:hover {
   transform: scale(1.3);
 }
+
 body {
   background-color: lightgray;
-  height: 100vh;
 }
 
-header {
-  height: 50px;
-  position: fixed;
-  display: flexbox;
-  columns: 4;
-  background-color: black;
-  width: 100%;
-  color: white;
-}
 
-header a {
-  text-decoration: none;
-}
-.nav {
-  list-style-type: none;
-}
 
-main {
-  display: flexbox;
-  align-content: center;
-  justify-items: center;
-}
-.title button {
-  padding: 1rem;
-  margin: 1rem;
-  background-image: linear-gradient(to bottom, #5AD900, #22C1C3);
-  cursor: pointer;
-  border-radius: 10px;
-  box-shadow: 0rem 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
-  transition: all 1s ease-in;
-  z-index: 999;
-  height: 5rem;
-  width: 10rem;
-  border: 2px solid var(--main-color);
-}
-
-.title button:hover{
-  transform: scale(1.5);
-  opacity: 50%;
-}
 
 .title h1 {
   font-family: var(--secondary-font);
@@ -139,21 +101,11 @@ main {
   text-align: center;
   align-content: center;
   height: 100vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
   background-color: var(--main-color);
 }
 
 .projects {
-  background-color: var(--secondary-color);
-  height: 30rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
+ 
 }
 
 .mission {
