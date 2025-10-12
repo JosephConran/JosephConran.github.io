@@ -104,52 +104,6 @@ body {
   background-color: var(--main-color);
 }
 
-.projects {
- 
-}
-
-.mission {
-  height: 50%;
-  color: white;
-  padding: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.missionmsg {
-  border-radius: 2.5rem;
-  box-shadow: -10px 0px 10px 10px rgba(00, 00, 00, 0.3);
-  height: 100%;
-  background-color: var(--black);
-  justify-content: left;
-  font-size: 1.8rem;
-  padding: 1.5rem;
-  overflow: scroll;
-}
-
-.missionmsg p {
-  margin-left: auto;
-  position: inherit;
-  font-size: larger;
-}
-.mission img {
-  /* position: absolute; */
-  width: 50%;
-  height: 50%;
-  margin: 15px;
-
-  border-radius: 50%;
-}
-
-.missionmsg p strong {
-  margin-top: 2rem;
-  color: var(--accent-color);
-  text-shadow: 0 0 20px var(--accent-color), 0 0 30px var(--accent-color),
-    0 0 40px var(--accent-color), 0 0 50px var(--accent-color),
-    0 0 60px var(--accent-color), 0 0 70px var(--accent-color),
-    0 0 80px var(--accent-color);
-}
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--black);
