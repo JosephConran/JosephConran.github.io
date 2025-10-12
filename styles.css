@@ -21,6 +21,8 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   background-color: var(--main-color);
   height: 100vh;
 }
@@ -140,6 +142,7 @@ main {
   width: 100%;
   background-size: cover;
   background-position: center;
+  background-color: var(--main-color);
 }
 
 .projects {
