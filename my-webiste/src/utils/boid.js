@@ -64,7 +64,7 @@ class Boid {
     this.acceleration.addInPlace(cohesion);
   }
 
-  separate(boids, radius) {
+  separate(boids) {
     const steering = new Vector2D();
     let total = 0;
 
@@ -107,7 +107,6 @@ class Boid {
 
   separateAdvanced(boids) {
     const steering = new Vector2D();
-    let total = 0;
     let totalWeight = 0;
 
     for (const other of boids) {
@@ -124,7 +123,6 @@ class Boid {
         diff.normalizeInPlace().multiplyInPlace(weight);
         steering.addInPlace(diff);
         totalWeight += weight;
-        total++;
       }
     }
 
