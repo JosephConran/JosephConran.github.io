@@ -1,5 +1,17 @@
+import BoidCanvas from "../interactive/BoidCanvas";
+import AnimatedText from "../interactive/AnimatedText";
+import ScrollIndicator from "../interactive/ScrollIndicator";
+
 const Hero = () => {
-  return <div>Hero</div>;
+  return (
+    <section className="hero-section">
+      <BoidCanvas />
+      <div className="hero-container">
+        <AnimatedText />
+        <ScrollIndicator />
+      </div>
+    </section>
+  );
 };
 
 export default Hero;
